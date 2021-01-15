@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+<style>
+body, html {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+
+
+.card{
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+.card:hover {
+ -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(1600px);
+          transform: perspective(1600px);
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background: #AEBEC7;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 75px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.cards  {
+  margin:50px;
+  text-align:center;
+  height: 680px;
+}
+.poster {
+  width: 570px;
+  height: 300px;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+
+.poster  div[class*="layer-"] {
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  top: 0px;
+  left: -10px;
+  right: -10px;
+  bottom: -40px;
+-webkit-transition: 999999s;
+}
+
+.poster:hover  div[class*="layer-"] {
+
+  -webkit-transition: 0.1s;
+          transition: 0.1s;
+}
+.poster .layer-1 {
+  background-image: url("c1v1La1.png");
+}
+.poster .layer-2 {
+  background-image: url("c1v1La2.png");
+}
+.poster .layer-3 {
+  background-image: url("c1v1La3.png");
+}
+.poster .layer-4 {
+  background-image: url("c1v1La4.png");
+}
+.poster .layer-5 {
+  background-image: url("c1v1La5.png");
+}
+
+
+.poster .layer-21 {
+  background-image: url("c3La1.png");
+}
+.poster .layer-22 {
+  background-image: url("c2La2.png");
+}
+.poster .layer-23 {
+  background-image: url("c2La3.png");
+}
+.poster .layer-24 {
+  background-image: url("c2La4.png");
+}
+.poster .layer-25 {
+  background-image: url("c2La5.png");
+}
+
+
+
+
+.poster .layer-31 {
+  background-image: url("c3La1.png");
+}
+.poster .layer-32 {
+  background-image: url("c3La2.png");
+}
+.poster .layer-33 {
+  background-image: url("c3La3.png");
+}
+.poster .layer-34 {
+  background-image: url("c3La4.png");
+}
+
+
+
+.poster .layer-41 {
+  background-image: url("c4La1.png");
+}
+.poster .layer-42 {
+  background-image: url("c4La2.png");
+}
+.poster .layer-43 {
+  background-image: url("c4La3.png");
+}
+.poster .layer-44 {
+  background-image: url("c4La4.png");
+}
+
+
+
+a {
+  text-decoration: none;
+  widht:570px;
+}
+
+.BannerMain{
+margin-top:-5px;
+}
+
+</style>
+</Head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Body>
+<img src="Header.jpg" alt="Main Banner" width="100%">
+<img class="BannerMain" src="MBv1.jpg" alt="Main Banner" width="100%">
+
+
+
+<div class="cards">
+<a href="#">
+<div class=card>
+<div data-offset="-5" class="poster">
+  <div class="shine"></div>
+  <div data-offset="10" class="layer-1"></div>
+  <div data-offset="-30" class="layer-2"></div>
+  <div data-offset="30" class="layer-3"></div>
+  <div data-offset="30" class="layer-4"></div>
+  <div data-offset="60" class="layer-5"></div>
+</div>
+</div>
+</a>
+
+
+
+<a href="#">
+<div class=card>
+<div data-offset="-5" class="poster">
+  <div class="shine"></div>
+  <div data-offset="10" class="layer-21"></div>
+  <div data-offset="-30" class="layer-22"></div>
+  <div data-offset="30" class="layer-23"></div>
+  <div data-offset="30" class="layer-24"></div>
+  <div data-offset="60" class="layer-25"></div>
+</div>
+</div>
+</a>
+
+
+<a href="#">
+<div class=card>
+<div data-offset="-5" class="poster">
+  <div class="shine"></div>
+  <div data-offset="10" class="layer-31"></div>
+  <div data-offset="-30" class="layer-32"></div>
+  <div data-offset="30" class="layer-33"></div>
+  <div data-offset="60" class="layer-34"></div>
+</div>
+</div>
+</a>
+
+<a href="#">
+<div class=card>
+<div data-offset="-5" class="poster">
+  <div class="shine"></div>
+  <div data-offset="10" class="layer-41"></div>
+  <div data-offset="-30" class="layer-42"></div>
+  <div data-offset="20" class="layer-43"></div>
+  <div data-offset="60" class="layer-44"></div>
+</div>
+</div>
+</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Подключаем библиотеку-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+<script>!function(t,e,s,i){"use strict";function n(e,s){this.element=e,this.settings=t.extend({},a,s),this._defaults=a,this._name=r,this.init()}var r="mgGlitch",a={destroy:!1,glitch:!0,scale:!0,blend:!0,blendModeType:"hue",glitch1TimeMin:600,glitch1TimeMax:900,glitch2TimeMin:10,glitch2TimeMax:115,zIndexStart:5};t.extend(n.prototype,{init:function(){this.glitch()},glitch:function(){function e(t,e){return Math.floor(Math.random()*(e-t+1))+t}function s(){var i=e(10,1900),n=9999,a=e(10,1300),o=0,h=e(0,16),f=e(0,16),d=e(c,l);t(r).css({clip:"rect("+i+"px, "+n+"px, "+a+"px,"+o+"px)",right:f,left:h}),setTimeout(s,d)}function i(){var s=e(10,1900),n=9999,c=e(10,1300),l=0,f=e(0,40),d=e(0,40),m=e(o,h);if(a===!0)var x=(Math.random()*(1.1-.9)+.9).toFixed(2);else if(a===!1)var x=1;t(r).next().css({clip:"rect("+s+"px, "+n+"px, "+c+"px,"+l+"px)",left:f,right:d,"-webkit-transform":"scale("+x+")","-ms-transform":"scale("+x+")",transform:"scale("+x+")"}),setTimeout(i,m)}function n(){var s=e(10,1900),i=9999,c=e(10,1300),l=0,f=e(0,40),d=e(0,40),m=e(o,h);if(a===!0)var x=(Math.random()*(1.1-.9)+.9).toFixed(2);else if(a===!1)var x=1;t(r).next().next().css({clip:"rect("+s+"px, "+i+"px, "+c+"px,"+l+"px)",left:f,right:d,"-webkit-transform":"scale("+x+")","-ms-transform":"scale("+x+")",transform:"scale("+x+")"}),setTimeout(n,m)}var r=this.element,a=this.settings.scale,c=this.settings.glitch1TimeMin,l=this.settings.glitch1TimeMax,o=this.settings.glitch2TimeMin,h=this.settings.glitch2TimeMax,f=this.settings.zIndexStart;if(this.settings.destroy===!0)(t(r).hasClass("el-front-1")||t(r).hasClass("front-3")||t(r).hasClass("front-2"))&&t(".front-1, .front-2, .front-3").remove(),t(".back").removeClass("back");else if(this.settings.destroy===!1){var d=t(r).clone();if(d.insertBefore(r).addClass("back").css({"z-index":f}),this.settings.blend===!0){var d=t(r).clone();d.insertAfter(r).addClass("front-3").css({"z-index":f+3,"mix-blend-mode":this.settings.blendModeType}),n()}if(this.settings.glitch===!0){var d=t(r).clone();d.insertAfter(r).addClass("front-2").css({"z-index":f+2}),t(".back").next().addClass("front-1").css({"z-index":f+1}),s(),i()}}}}),t.fn[r]=function(t){return this.each(function(){new n(this,t)})}}(jQuery,window,document);
+
+
+
+
+var $poster = $('.poster:hover'),
+  $shine = $('.shine'),
+  $layer = $('div[class*="layer-"]');
+
+$(window).on('mousemove', function(e) {
+  var w = $(window).width(),
+    h = $(window).height(),
+    offsetX = 0.5 - e.pageX / w,
+    offsetY = 0.5 - e.pageY / h,
+    dy = e.pageY - h / 2,
+    dx = e.pageX - w / 2,
+    theta = Math.atan2(dy, dx),
+    angle = theta * 180 / Math.PI - 90,
+    offsetPoster = $poster.data('offset'),
+    transformPoster = 'translateY(' + -offsetX * offsetPoster + 'px) rotateX(' + (-offsetY * offsetPoster) + 'deg) rotateY(' + (offsetX * (offsetPoster * 2)) + 'deg)';
+
+  if (angle < 0) {
+    angle = angle + 360;
+  }
+
+  $shine.css('background', 'linear-gradient(' + angle + 'deg, rgba(255,255,255,' + e.pageY / h * .3 + ') 0%,rgba(255,255,255,0) 80%)');
+
+  $poster.css('transform', transformPoster);
+
+  $layer.each(function() {
+    var $this = $(this),
+      offsetLayer = $this.data('offset') || 0,
+      transformLayer = 'translateX(' + offsetX * offsetLayer + 'px) translateY(' + offsetY * offsetLayer + 'px)';
+
+    $this.css('transform', transformLayer);
+  });
+
+});
+</script>
+
+</Body>
